@@ -5,10 +5,11 @@ class While
 		int n=1;
 		while(n<=10)
 		{
-			if(n==5)
-				continue;
-			System.out.println(n);
 			n++;
+			if(n==5)
+			   continue;
+			System.out.println(n);
+			
 		}
 	}
 }

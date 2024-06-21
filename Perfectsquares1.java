@@ -9,7 +9,7 @@ class Perfectsquares1
 			double pow=Math.pow(sqrt,2);*/
 			if(Math.sqrt(num)==(int)Math.sqrt(num))
 				System.out.println(num);
-			num++;
+			num++;System.out.println(num);
 		}
 	}
 }
